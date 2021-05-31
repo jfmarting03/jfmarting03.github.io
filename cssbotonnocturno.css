@@ -1,0 +1,21 @@
+.oscuro{ 
+    background-color: #1f1f1f; 
+    color: #f1eded; 
+}
+
+.boton{
+    padding: 5px;
+    font-family: arial;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+  }
+  .boton:hover{
+    color: #070000;
+    background-color: white;
+    text-decoration: none;
+  }

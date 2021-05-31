@@ -1,0 +1,19 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 0.2fr 2.6fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "header header header header"
+      "menu menu menu menu"
+      "body body body body"
+      "footer footer footer footer";
+  }
+  .header { grid-area: header; }
+  .menugrid { grid-area: menu; }
+  .body { grid-area: body; }
+  .footergrid { grid-area: footer; }
+
+  @media (min-width: 600px) {
+    .grid-container { grid-template-columns: repeat(2, 1fr); }
+  }

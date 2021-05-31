@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <link rel="stylesheet" type="text/css" href="cssmiweb.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="formulario.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="gridcsspagina.css" media="screen" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/2162eb1eae.js" crossorigin="anonymous"></script>
+        <script src="JAVASCRIPTMIWEB.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="Author" content="Jaime Fernando Martín Gil">
+        <meta name="Description" content="Prueba de parrafos">
+        <meta name="Keywords" content="Coches, audi, Volkswagen, Seat">
+        <title>Página web de Jaime</title>
+        <link rel="icon" href="Favicon.png" type="image/x-icon"/>
+    </head>
+    <section class="container">
+    <header class="header"> 
+      <button class="boton" onclick="fecha()"> ¿Qué dia es hoy? </button>
+    </header>
+      <nav class=" menusticky menu menugrid">
+        <ul>
+          <li><a href="index.html"><i class="fas fa-indent"></i>Inicio</a></li>
+          <li><a href="#"><i class="fas fa-car"></i>Coches Alemanes</a>
+              <ul><li><a href="BMWweb.html">BMW</a></li>
+              <li><a href="Volkswagenweb.html">Volkswagen</a></li>
+              <li><a href="MercedesWeb.html">Mercedes</a></li>
+              </li></ul>
+              <li><a href="#"><i class="fas fa-car-side"></i>Coches importación japonesa</a>
+                <ul><li><a href="Nissanweb.html">Nissan</a></li>
+                <li><a href="Toyotaweb.html">Toyota</a></li>
+                </li>
+              </ul>
+          <li><a href="Diseño estructura Página web.pdf"><i class="fas fa-code"></i> Desarrollo Web</a></li>
+          <li><a href="Formulario.html"><i class="fas fa-user-tie"></i>Contacta con nosotros</a></li>
+      </ul></nav>
+                        <img class="menu imagenesfooter" src="FOTOS DE MI PÁGINAWEB/coche.png">
+                        <br>
+                        <br>
+<body>  
+  <div class="contact_form">
+    <div class="formulario">      
+      <h1>Formulario de contacto</h1>
+        <h3>Rellena el siguiente formulario de inscripción</h3>
+          <form action="" method="post">
+            <p class="aviso">
+                <span class="obligatorio"> * </span>Los campos son obligatorios.
+              </p>  
+                <p>
+                  <label for="nombre" class="nombre">Nombre
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="escribe nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+                <p>
+                  <label for="email" class="email">Email
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="email" name="escribe email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+                <p>
+                  <label for="telefono" class="telefono">Teléfono
+                  </label>
+                    <input type="tel" name="escribe telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>    
+                <p>
+                  <label for="Direccion" class="direccion">Dirección
+                  </label>
+                    <input type="url" name="escribe direccion" id="direccion" placeholder="Escribe tu dirección">
+                </p>    
+                <p>
+                  <label for="asunto" class="comentario">Asunto
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="escribe comentario" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                </p>    
+                <p>
+                  <label for="mensaje" class="mensaje">Mensaje
+                    <span class="obligatorio">*</span>
+                  </label>                     
+                    <textarea name="escribe mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea>
+                </p>
+                <input type="radio" id="masculino" name="genero" value="masculino">
+                <label for="masculino">Masculino</label><br>
+                <input type="radio" id="Femenino" name="genero" value="Femenino">
+                <label for="femenino">Femenino</label><br>
+                <input type="radio" id="otro" name="genero" value="otro">
+                <label for="otro">Otro</label>               
+                <button type="submit" name="enviar formulario" id="enviar"><p>Enviar</p></button>
+                <button type="reset" name="borrar formulario" id="borrar"><p>Borrar</p></button>
+          </form>
+    </div>  
+  </div>
+  <div class="footer">
+    <p>Página web creada por Jaime Fernando Martín Gil<br>
+    <a href="mailto:jfmarting03@educarex.es">Correo contacto: jfmarting03@educarex.es</a></p>
+      <img class="imagenesfooter" src="FOTOS DE MI PÁGINAWEB/instagram.png">
+      <img class="imagenesfooter" src="FOTOS DE MI PÁGINAWEB/facebook.png">
+      <img class="imagenesfooter" src="FOTOS DE MI PÁGINAWEB/whatsapp.png">
+      <br>
+                    <p>©2021CarsJM. All rights not reserved.</p> 
+  </div>
+</body>
+</html>
